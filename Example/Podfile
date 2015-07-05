@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'CLMNetworking', :exclusive => true do
+  pod "CLMNetworking", :path => "../"
+  pod "OHHTTPStubs"
+end
+
+target 'Tests', :exclusive => true do
+  pod "CLMNetworking", :path => "../"
+
+  pod 'Kiwi'
+end

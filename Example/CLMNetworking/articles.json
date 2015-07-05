@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "article #1",
+    "content": "article #1 article #1 article #1 article #1 article #1",
+    "image_url": "http://localhost:3000/images/article/1.png",
+    "created_at": "2015-07-01T01:00:00Z",
+    "updated_at": "2015-07-01T01:00:00Z"
+  },
+  {
+    "id": 2,
+    "title": "article #2",
+    "content": "article #2 article #2 article #2 article #2 article #2",
+    "image_url": "http://localhost:3000/images/article/2.png",
+    "created_at": "2015-07-01T01:00:00Z",
+    "updated_at": "2015-07-01T01:00:00Z"
+  }
+]
