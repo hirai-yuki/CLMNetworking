@@ -62,6 +62,7 @@
 		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8A44412489F5D64B9B05248B /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD22D3D1B49977D00CF8A0B /* CLMArticleServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLMArticleServiceProtocol.h; path = CLMNetworking/Classes/CLMArticleServiceProtocol.h; sourceTree = SOURCE_ROOT; };
 		AFDD9BCD1B491B900068C654 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AFDD9BCE1B491B900068C654 /* Tests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		AFDD9BCF1B491B900068C654 /* Tests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
@@ -84,7 +85,6 @@
 		AFDD9C0A1B4951320068C654 /* CLMCredentialProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLMCredentialProvider.h; path = CLMNetworking/Classes/CLMCredentialProvider.h; sourceTree = SOURCE_ROOT; };
 		AFDD9C0B1B4951320068C654 /* CLMCredentialProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLMCredentialProvider.m; path = CLMNetworking/Classes/CLMCredentialProvider.m; sourceTree = SOURCE_ROOT; };
 		AFDD9C0E1B4956090068C654 /* CLMArticleListViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLMArticleListViewProtocol.h; sourceTree = "<group>"; };
-		AFDD9C0F1B4957F10068C654 /* CLMArticleServiceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CLMArticleServiceProtocol.h; path = CLMNetworking/Classes/Service/CLMArticleServiceProtocol.h; sourceTree = SOURCE_ROOT; };
 		AFDD9C161B49621C0068C654 /* articles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = articles.json; sourceTree = "<group>"; };
 		B699C8ED83B751567C6FF1A7 /* Pods-CLMNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLMNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CLMNetworking/Pods-CLMNetworking.debug.xcconfig"; sourceTree = "<group>"; };
 		F81470D5215A8E853C67BF51 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -248,7 +248,7 @@
 				AFDD9BD91B491D810068C654 /* Entity */,
 			);
 			name = Domain;
-			path = Classes/Domain;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		AFDD9BD71B491D720068C654 /* Repository */ = {
@@ -264,7 +264,7 @@
 		AFDD9BD81B491D7A0068C654 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				AFDD9C0F1B4957F10068C654 /* CLMArticleServiceProtocol.h */,
+				AFD22D3D1B49977D00CF8A0B /* CLMArticleServiceProtocol.h */,
 				AFDD9BF01B491F880068C654 /* CLMArticleService.h */,
 				AFDD9BF11B491F880068C654 /* CLMArticleService.m */,
 			);
